@@ -130,7 +130,7 @@ public class TemperatureApp {
 
 		this.label3 = new JLabel("Answer:");
 		label3.setBounds(72, 192, 129, 36);
-		label3.setFont(new Font("DialogInput", Font.PLAIN, 23));
+		label3.setFont(new Font("DialogInput", Font.PLAIN, 23)); //Change1
 		frame.getContentPane().add(label3);
 
 		frame.getContentPane().add(textField);
